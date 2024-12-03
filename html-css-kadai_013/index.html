@@ -22,16 +22,13 @@
   </nav>
   <!-- スマホ用メニューボタン -->
 <img id="menu-sp" src="images/button-menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block' ">
-</button>
+
 <!-- スマホ用ナビゲーション -->
-  <div id="nav-sp">
+<nav id="nav-sp">
     <img id="close" src="images/button-close.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
-    </button>
-    <nav>
+    
       <ul>
-        <li>
-          <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'">
-            <img src="images/logo-sp.png" alt="トップページに戻る"></a>
+        <li><img id="logo-sp" src="images/logo-sp.png" alt="トップページに戻る" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'">
         </li>
         <li><a class="menu" href="index.html#concept" onclick="document.getElementById('nav-sp').style.display = 'none'">CONCEPT</a></li>
         <li><a class="menu" href="index.html#product" onclick="document.getElementById('nav-sp').style.display = 'none'">PRODUCT</a></li>
@@ -42,12 +39,11 @@
 
 <main>
   <article>
-    <section id="main-visual">
-      <div id="main-message">
+    <section id="main-visual" >
+      <img id="main-message">
         <h1>Organic Cafe</h1>
         <p>自家焙煎コーヒーが買える店</p>
-      </div>
-      <img src="images/main-image.jpg" alt="コーヒーを淹れる人">
+           <img src="images/main-image.jpg" alt="コーヒーを淹れる人">
     </section>
     
   </article>
